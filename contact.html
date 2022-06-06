@@ -6,7 +6,7 @@
 	<title>Gabriella Spence &mdash; Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="People Analytics Professional" />
-	<meta name="keywords" content="People Analytcs, I/O Psychology, Data Science" />
+	<meta name="keywords" content="People Analytics, I/O Psychology, Data Science" />
 	<meta name="author" content="Gabriella Spence" />
 
 	<!-- 
@@ -69,19 +69,20 @@
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="index.html">Home</a></li>
 								<li><a href="portfolio.html">Portfolio</a></li>
 								<li class="has-dropdown">
 									<a href="blog.html">Blog</a>
 									<ul class="dropdown">
-										<li><a href="#">R</a></li>
-										<li><a href="#">Python</a></li>
-										<li><a href="#">SQL</a></li>
-										<li><a href="#">BI</a></li>
+										<li><a href="BlogDropdown/R.html">R</a></li>
+										<li><a href="BlogDropdown/Python.html">Python</a></li>
+										<li><a href="BlogDropdown/SQL.html">SQL</a></li>
+										<li><a href="BlogDropdown/BI.html">BI</a></li>
+										<li><a href="BlogDropdown/DataScience.html">Data Science</a></li>
 									</ul>
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -96,7 +97,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Contact Me</h2>
-					<p>I'm happy share experiences, collaborate, or offer my help!</p>
+					<p>I'm happy to share experiences, collaborate, or offer my help!</p>
 				</div>
 			</div>
 		</div>
@@ -107,29 +108,32 @@
 						<ul class="contact-info">
 							<li><i class="icon-location"></i>Issaquah, WA</li>
 							<li><i class="icon-mail22"></i><a href="mailto:gitblog.gabriella@gmail.com">Email</a></li>
-							<li><i class="icon-globe2"></i><a href="https://www.linkedin.com/in/gabriella-spence/">LinkedIn</a></li>
+							<li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/in/gabriella-spence/">LinkedIn</a></li>
 						</ul>
 					</div>
-					<div class="col-md-7 col-md-push-1 animate-box">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Name">
+					
+					<form action="https://formspree.io/f/mjvlzvgy" method="POST">
+						<div class="col-md-7 col-md-push-1 animate-box">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label> Name <input type="text" class="form-control" placeholder="Name"> </label>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Email">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label> Email <input type="email" class="form-control" name="email"> </label>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea name="message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+									</div>
 								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -138,18 +142,6 @@
 			</div>
 	</div>
 	
-	<div id="fh5co-started">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Want to Connect?</h2>
-					<p>I'm happy share experiences, collaborate, or offer my help!</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
@@ -161,20 +153,21 @@
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="https://gabriellaspence.github.io/">Home</a></li>
+						<li><a href="https://gabriellaspence.github.io/portfolio.html">Portfolio</a></li>
+						<li><a href="https://gabriellaspence.github.io/blog.html">Blog</a></li>
+						<li><a href="https://gabriellaspence.github.io/about.html">About</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Categories</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">R</a></li>
-						<li><a href="#">Python</a></li>
-						<li><a href="#">SQL</a></li>
-						<li><a href="#">BI</a></li>
+						<li><a href="BlogDropdown/R.html">R</a></li>
+						<li><a href="BlogDropdown/Python.html">Python</a></li>
+						<li><a href="BlogDropdown/SQL.html">SQL</a></li>
+						<li><a href="BlogDropdown/BI.html">BI</a></li>
+						<li><a href="BlogDropdown/DataScience.html">Data Science</a></li>
 					</ul>
 				</div>
 
@@ -192,12 +185,11 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block"><p>Last modified <span id="demo"></span>.</p>
-
+						<small class="block">Adapted from <a href="https://freehtml5.co/">Free HTML5. </a> <br> Last modified <span id="demo"></span>.
 							<script>
 							document.getElementById("demo").innerHTML = document.lastModified;
 							</script>
-							</small> 
+						</small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
