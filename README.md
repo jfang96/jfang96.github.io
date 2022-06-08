@@ -1,4 +1,4 @@
-# GabriellaSpence.github.io
+# jfang96.github.io
  Personal Website Work in Progress
  
  Adapted from:
@@ -16,4 +16,3 @@
 
 Under Construction: 
 * Build out first blog post.
-* Make textbox on sliding panel mobile friendly. 
