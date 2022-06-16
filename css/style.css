@@ -251,6 +251,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-video {
     height: 450px;
   }
+  .desc {
+    transform: translateY(-50%) !important;
+  }
 }
 .fh5co-video a {
   z-index: 1001;
@@ -580,14 +583,15 @@ h1, h2, h3, h4, h5, h6, figure {
   display: none;
 }
 #fh5co-hero .flexslider .slider-text-bg .desc {
-  margin-top: 9em;
-  margin-right: 12em;
-  margin-left: -12em;
+  margin-top: 3em;
+  position: absolute;
+  left: 50px;
+  transform: translateX(-50%);
   padding: 2em;
   background: #a8d0e6;
-  -webkit-box-shadow: 0px 21px 24px 0px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 21px 24px 0px rgb(0 0 0 / 13%);
   -moz-box-shadow: 0px 21px 24px 0px rgba(0, 0, 0, 0.13);
-  box-shadow: 0px 21px 24px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 21px 24px 0px rgb(0 0 0 / 13%);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
